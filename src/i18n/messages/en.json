@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Afdal",
+    "description": "Optimized solutions for real-world complexity"
+  },
+  "nav": {
+    "home": "Home",
+    "who": "Who we are",
+    "solution": "Our Solution",
+    "team": "The Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Afdal",
+    "subtitle": "Optimized solutions for real-world complexity. We specialize in generating sets of optimized solutions, not just one.",
+    "cta": "Discover our Solution"
+  },
+  "lang": {
+    "switch": "Language",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  }
+}
