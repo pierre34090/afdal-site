@@ -7,10 +7,10 @@ sudo apt update && sudo apt install -y nodejs npm
 brew install node
 
 ## Clone and run
-git clone https://github.com/TON_USER/ton-repo.git
-cd ton-repo
-npm install
-npm run dev   # → http://localhost:3000
+git clone https://github.com/TON_USER/ton-repo.git  
+cd ton-repo  
+npm install  
+npm run dev   # → http://localhost:3000  
 
 
 
