@@ -2,6 +2,29 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #2563eb; /* blue-600 */
-  --color-secondary: #1e293b; /* slate-900 */
+  --font-sans: ui-sans-serif, Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+  /* Brand (depuis ton logo) */
+  --brand-red:    #C13F6B;  /* barres */
+  --brand-orange: #F2A83A;  /* flèche */
+
+  /* Primary UI (style Pasqal, pour CTA/links) */
+  --primary:      #2E2A5C;  /* indigo profond */
+  --on-primary:   #ffffff;
+
+  /* Texte / surfaces */
+  --text:         #111827;
+  --muted:        #6B7280;
+  --surface:      #ffffff;
+  --surface-alt:  #F8FAFC;
+  --border:       #E5E7EB;
 }
+
+html, body { height: 100%; }
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--surface);
+}
+
+.border { border-color: var(--border); }

@@ -1,14 +1,27 @@
-// app/who-we-are/page.tsx
+// src/app/[locale]/who-we-are/page.tsx
+"use client";
+
+import { useTranslations } from "next-intl";
+import PageHeader from "@/components/PageHeader";
+
 export default function WhoWeArePage() {
+  const t = useTranslations();
+
   return (
-    <section className="p-8 max-w-3xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">Who we are</h2>
-      <p className="text-lg text-gray-700">
-        At Afdal, we are a team of researcher-engineers with 10+ years of
-        experience. We believe Operations Research is underused, and we
-        specialize in providing iterators of optimized solutions instead of a
-        single one.
-      </p>
-    </section>
+    <>
+      <PageHeader
+        title={t("who.header.title")}
+        subtitle={t("who.header.subtitle")}
+        imageSrc="/headers/who.jpg"
+        height={320}
+      />
+
+      <section className="max-w-3xl mx-auto px-4 py-12">
+        <h2 className="text-2xl font-semibold mb-4">{t("who.body.title")}</h2>
+        <p className="text-lg text-gray-700 leading-relaxed">
+          {t("who.body.paragraph")}
+        </p>
+      </section>
+    </>
   );
 }

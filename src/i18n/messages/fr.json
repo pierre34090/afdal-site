@@ -20,5 +20,62 @@
     "en": "English",
     "fr": "Français",
     "ar": "العربية"
+  },
+  "who": {
+    "header": {
+      "title": "Qui sommes-nous",
+      "subtitle": "Chercheurs-ingénieurs passionnés par la Recherche Opérationnelle."
+    },
+    "body": {
+      "title": "Notre mission",
+      "paragraph": "Chez Afdal, nous sommes une équipe de chercheurs-ingénieurs avec plus de 10 ans d’expérience. Nous pensons que la Recherche Opérationnelle est sous-exploitée et nous concevons des ensembles de solutions optimisées plutôt qu’une unique solution."
+    }
+  },
+  "solution": {
+    "header": {
+      "title": "Notre solution",
+      "subtitle": "Des outils pratiques pour planifier vos routes et vos flux logistiques."
+    },
+    "body": {
+      "title": "Afdal Route",
+      "paragraph": "Afdal Route est notre solution prête à l’emploi. Elle fournit des itinéraires optimisés avec plusieurs alternatives, garantissant flexibilité et robustesse dans la logistique réelle.",
+      "cta": "Essayer Afdal Route"
+    }
+  },
+  "team": {
+    "header": {
+      "title": "L'équipe",
+      "subtitle": "Une équipe d’experts aux profils variés."
+    },
+    "body": {
+      "title": "Découvrez notre équipe"
+    },
+    "members": {
+      "pierre": "Ingénieur optimisation",
+      "ali": "Entrepreneur & Chercheur",
+      "satya": "Chercheur scientifique"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact",
+      "subtitle": "Nous sommes disponibles pour répondre à vos questions."
+    },
+    "body": {
+      "title": "Envoyez-nous un message"
+    },
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "message": "Votre message",
+      "submit": "Envoyer"
+    }
+  },
+  "home": {
+    "header": {
+      "title": "Bienvenue chez Afdal",
+      "subtitle": "Des solutions optimisées pour les défis complexes du monde réel."
+    }
   }
+
 }

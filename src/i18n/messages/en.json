@@ -20,5 +20,62 @@
     "en": "English",
     "fr": "Français",
     "ar": "العربية"
+  },
+  "who": {
+    "header": {
+      "title": "Who we are",
+      "subtitle": "Researchers & engineers passionate about Operations Research."
+    },
+    "body": {
+      "title": "Our Mission",
+      "paragraph": "At Afdal, we are a team of researcher-engineers with 10+ years of experience. We believe Operations Research is underused, and we specialize in providing iterators of optimized solutions instead of just a single one."
+    }
+  },
+  "solution": {
+    "header": {
+      "title": "Our Solution",
+      "subtitle": "Practical tools for efficient routing and logistics."
+    },
+    "body": {
+      "title": "Afdal Route",
+      "paragraph": "Afdal Route is our production-ready solution. It provides optimized routing with multiple alternatives, ensuring flexibility and robustness in real-world logistics.",
+      "cta": "Try Afdal Route"
+    }
+  },
+  "team": {
+    "header": {
+      "title": "The Team",
+      "subtitle": "A diverse group of experts."
+    },
+    "body": {
+      "title": "Meet our team"
+    },
+    "members": {
+      "pierre": "Optimization Engineer",
+      "ali": "Entrepreneur & Researcher",
+      "satya": "Research Scientist"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact us",
+      "subtitle": "We are here to answer your questions."
+    },
+    "body": {
+      "title": "Send us a message"
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send"
+    }
+  },
+  "home": {
+  "header": {
+    "title": "مرحبًا بك في أفضل",
+    "subtitle": "حلول مُحسّنة لمواجهة التحديات المعقدة في العالم الحقيقي."
   }
+}
+
 }

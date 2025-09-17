@@ -16,8 +16,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
   return (
     <>
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <header className="border-b p-4 flex justify-between items-center">
-          <div className="text-xl font-bold">Afdal</div>
+        <header className="border-b">
           <Nav />
         </header>
 
